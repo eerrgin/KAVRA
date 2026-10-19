@@ -1,0 +1,1 @@
+# KAVRA şu anda üçüncü taraf Python paketi gerektirmez.
