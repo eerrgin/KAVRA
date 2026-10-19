@@ -1,0 +1,1 @@
+"""KAVRA örnek veri kümeleri."""
