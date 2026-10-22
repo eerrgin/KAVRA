@@ -1,8 +1,8 @@
 """KAVRA modüler sürümünün giriş noktası."""
-from kavra import Ag, Egitmen
-from ornekler.ve_kapisi import VERI
-# XOR için yukarıdaki importu şu satırla değiştir:
-# from ornekler.xor_kapisi import VERI
+from ag import Ag
+from egitim import Egitmen
+from ve_kapisi import VERI
+
 
 def main():
     print("=== KAVRA | modüler sürüm ===")
@@ -14,6 +14,7 @@ def main():
         tahmin = ag.tahmin(girdiler)[0]
         sinif = int(tahmin >= 0.5)
         print(f"{girdiler} -> {tahmin:.4f} | sınıf={sinif} | hedef={int(hedef[0])}")
+
 
 if __name__ == "__main__":
     main()

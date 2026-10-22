@@ -1,5 +1,5 @@
 """Nöronlardan oluşan katman."""
-from .noron import Noron
+from noron import Noron
 
 class Katman:
     def __init__(self, noron_sayisi, giris_sayisi, rng=None):

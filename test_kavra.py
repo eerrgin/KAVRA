@@ -1,6 +1,8 @@
 import unittest
-from kavra import Ag, mse
-from ornekler.ve_kapisi import VERI
+from ag import Ag
+from kayip import mse
+from ve_kapisi import VERI
+
 
 class KavraTests(unittest.TestCase):
     def test_mse(self):
@@ -15,6 +17,7 @@ class KavraTests(unittest.TestCase):
         ag.egit(VERI, tur_sayisi=6000, oran=0.7, rapor=0)
         for x, y in VERI:
             self.assertEqual(int(ag.tahmin(x)[0] >= 0.5), int(y[0]))
+
 
 if __name__ == "__main__":
     unittest.main()

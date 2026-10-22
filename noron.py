@@ -1,6 +1,6 @@
 """Tek yapay sinir hücresi."""
 import random
-from .aktivasyon import sigmoid
+from aktivasyon import sigmoid
 
 class Noron:
     def __init__(self, giris_sayisi, rng=None):
