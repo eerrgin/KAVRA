@@ -1,4 +1,4 @@
-"""KAVRA'nın tek dosyalık öğretici sürümü; AND kapısını öğrenir."""
+"""Tigerk'in tek dosyalık öğretici sürümü; AND kapısını öğrenir."""
 import math
 import random
 
@@ -80,6 +80,6 @@ if __name__ == "__main__":
     ]
     ag = Ag(2, [4, 1], tohum=7)
     ag.egit(veri, tur_sayisi=6000, oran=0.7)
-    print("=== KAVRA | tek dosyalık AND örneği ===")
+    print("=== Tigerk | tek dosyalık AND örneği ===")
     for x, y in veri:
         print(f"{x} -> {ag.ileri(x)[0]:.4f} (hedef {int(y[0])})")

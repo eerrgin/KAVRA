@@ -4,7 +4,7 @@ from kayip import mse
 from ve_kapisi import VERI
 
 
-class KavraTests(unittest.TestCase):
+class TigerkTests(unittest.TestCase):
     def test_mse(self):
         self.assertAlmostEqual(mse([0.0, 1.0], [0.0, 0.0]), 0.5)
 

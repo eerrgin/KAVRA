@@ -1,11 +1,11 @@
-"""KAVRA modüler sürümünün giriş noktası."""
+"""Tigerk modüler sürümünün giriş noktası."""
 from ag import Ag
 from egitim import Egitmen
 from ve_kapisi import VERI
 
 
 def main():
-    print("=== KAVRA | modüler sürüm ===")
+    print("=== Tigerk | modüler sürüm ===")
     ag = Ag(giris_sayisi=2, katman_yapisi=[4, 1], tohum=7)
     egitmen = Egitmen(ag, oran=0.7)
     egitmen.egit(VERI, tur_sayisi=6000, rapor=1000)

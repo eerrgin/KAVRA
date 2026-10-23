@@ -1,6 +1,6 @@
-# KAVRA — Saf Python ile Yapay Sinir Ağı
+# Tigerk — Saf Python ile Yapay Sinir Ağı
 
-KAVRA, sinir ağlarının ileri besleme, sigmoid aktivasyonu, geri yayılım ve ortalama kare hata (MSE) gibi temel parçalarını harici ML kütüphanesi olmadan göstermek üzere hazırlanmış eğitim projesidir.
+Tigerk, sinir ağlarının ileri besleme, sigmoid aktivasyonu, geri yayılım ve ortalama kare hata (MSE) gibi temel parçalarını harici ML kütüphanesi olmadan göstermek üzere hazırlanmış eğitim projesidir.
 
 ## Gereksinim
 
@@ -12,7 +12,7 @@ Depo kök dizininde:
 
 ```bash
 python main.py
-python -m unittest test_kavra -v
+python -m unittest test_tigerk -v
 ```
 
 ## Modüller

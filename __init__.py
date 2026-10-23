@@ -1,1 +1,1 @@
-"""KAVRA örnek veri kümeleri."""
+"""Tigerk örnek veri kümeleri."""
